@@ -5,6 +5,7 @@ public class Main {
 
         for (int i = 1; i <= 10; i++) {
             System.out.println(StaticClass.VALUE_OF + StaticClass.I_EQUALS + i);
+            System.out.println("this is branch 1");
         }
     }
 }
