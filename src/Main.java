@@ -9,7 +9,7 @@ public class Main {
         for (int i = 1; i <= 6; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("value of i = " + i);
+            System.out.println(StaticClass.VALUE_OF + " i = " + i);
         }
     }
 }
